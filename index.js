@@ -53,10 +53,9 @@ function ShoppingCart() {
     return cartItems;
   };
 }
-
-// Usage
-var product1 = new Product("Product 1", 10);
-var product2 = new Product("Product 2", 20);
+ 
+var product1 = new Product("tomato", 10);
+var product2 = new Product("rice", 20);
 
 var cart = new ShoppingCart();
 
